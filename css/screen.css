@@ -1,0 +1,373 @@
+.screen {
+	padding: 0 0.5em;
+	box-sizing: border-box;
+}
+
+.search {
+	position: relative;
+}
+
+.search input {
+	width: 100%;
+	height: 3em;
+	background-color: #f5f8fd;
+	margin: 0.5em 0;
+	border: 0;
+	font-size: 2.2em;
+	padding: 0 3.5em;
+}
+
+.search img {
+	position: absolute;
+	top: 50%;
+	left: 2em;
+	transform: translate(0, -50%);
+	width: 3.5em;
+}
+
+.carbrand ul {
+	display: flex;
+}
+
+.carbrand ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.carbrand ul li a {
+	display: block;
+}
+
+.carbrand ul li img {
+	width: 7em;
+}
+
+.carbrand ul li p {
+	font-size: 2.2em;
+	color: #333;
+}
+
+.price {
+	margin: 1em 0;
+}
+
+.price a {
+	font-size: 2.2em;
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+	background-color: #f6f9fe;
+	color: #333;
+	margin: 0.19em;
+	padding: 0.5em 0;
+}
+
+
+/* 汽车品牌选择 */
+.brand_wrap {
+	margin: 0 auto;
+	display: none;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.ml9 {
+	margin-left: 9px;
+}
+
+.mr9 {
+	margin-right: 9px;
+}
+
+.brand_left {
+	width: 100%;
+	float: left;
+	background: #fff;
+}
+
+/*brand_nav*/
+.brand_head {
+	background: #eff2f5;
+    border: 1px solid #e6e6e6;
+    border-bottom: 0;
+    width: 100%;
+    height: 3em;
+    font: bold 2em/3em "Microsoft YaHei";
+    color: #444;
+    padding-left: 9px;
+}
+.brand_head .close{
+	padding: 0 0.5em;
+}
+.brand_head .close:active{
+	background-color: #fff;
+}
+
+.brand_nav {
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.brand_nav .brand_side {
+	width: 5.625rem;
+	height: 100%;
+	border-right: 1px solid #e6e6e6;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.brand_nav .numA-Z {
+	padding: 5px 0 0 0;
+	width: 36px;
+	text-align: center;
+}
+
+.brand_nav .numA-Z a {
+    width: 3em;
+    height: 3em;
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    background: #eff2f5;
+    margin-top: 5px;
+    display: inline-block;
+    font: 1.5em/3em Arial;
+    color: #44494d;
+}
+
+.brand_nav .numA-Z a:hover {
+	text-decoration: none;
+	background: #3697db;
+	color: #FFF;
+}
+
+.brand_nav .numA-Z .active {
+    width: 3em;
+    height: 3em;
+    border: 1px solid #3697db;
+    font: 1.5em/3em Arial;
+    text-align: center;
+    background: #3697db;
+    color: #FFF;
+}
+
+/*brand_col*/
+.brand_col {
+	width: 100%;
+	margin: 0 0 0 6.6875rem;
+}
+
+.brand_col .brand_list {
+	width: 100%;
+	height: 94vh;
+	margin: 10px 0 0;
+	display: block;
+	overflow-y: scroll;
+}
+
+.brand_col .list_cont li {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    height: 3em;
+    line-height: 3em;
+	font-size: 2em;
+}
+
+.brand_col .list_cont li a {
+	display: block;
+	color: #333;
+}
+
+.brand_col .list_cont li a:hover {
+	color: #3697db;
+	text-decoration: none;
+	background-color: #eff2f5;
+}
+
+.brand_col .list_cont .sign {
+    width: 3em;
+    height: 3em;
+    float: left;
+    display: inline;
+    margin: 0 7px;
+	padding: 0.4em;
+}
+
+.brand_col .list_cont .name {
+	height: 3em;
+    background: #eff2f5;
+    line-height: 3em;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+.brand_col .list_cont .a2 {
+    padding-left: 28px;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1em;
+}
+
+.brand_col .list_cont .menu_li {
+	padding-left: 46px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.brand_col .list_cont .menu_li a {
+    width: 100%;
+    height: 3em;
+    display: inline-block;
+    line-height: 3em;
+    padding: 0 2px;
+}
+
+.brand_col .list_cont .menu_li a:hover {
+	background: #3697db;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.brand_col .list_cont .a1 {
+	height: auto;
+	padding-left: 0;
+	display: none
+}
+
+.brand_col .list_cont .a1 ul {
+	padding: 0;
+	margin: 8px 0;
+}
+
+.brand_col .list_cont .a1 li {
+	border-bottom: 0;
+}
+
+
+
+.brand_col .list_cont .a2 a:hover {
+	background-color: #FFF;
+}
+
+.brand_col .list_cont .menu_li {
+    line-height: 3em;
+    height: 3em;
+    font-size: 1em;
+}
+
+/*bread_nav*/
+.bread_nav {
+	display: block;
+	height: 20px;
+	width: 980px;
+	margin: 10px auto 0 auto;
+}
+
+.bread_nav .nav_l {
+	float: left;
+	font: 14px/20px "Microsoft YaHei";
+	color: #838383;
+}
+
+.bread_nav .nav_l a {
+	color: #3697db;
+}
+
+.bread_nav .nav_l em {
+	padding: 0 5px;
+	font-family: "SimSun";
+}
+
+
+
+/* 条件选择 */
+.condition_screen{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: none;
+}
+.condition_screenCon{
+	height: 85vh;
+	overflow-y: scroll;
+}
+.condition_title{
+	font-size: 2em;
+	background-color: #eff2f5;
+	border: 1px solid #e6e6e6;
+	padding: 1em;
+}
+
+.condition_item{
+	font-size: 2em;
+}
+.condition_item span{
+	padding: 1em;
+	display: block;
+}
+.condition_item ul{
+	border: 1px solid #eee;
+	padding: 1em 1em;
+	margin:0 1em;
+}
+.condition_item ul li{
+	text-align: center;
+	display: inline-block;
+	width: 32.5%;
+	border: 1px solid transparent;
+}
+
+.condition_item ul li img{
+	width: 4em;
+}
+.condition_item ul li.active{
+	background-color: #fefbda;
+	border: 1px solid #dddc8c;
+}
+
+.condition_item ul li p{
+	padding: 0.75em 0;
+}
+
+.condition_item2 ul li p{
+	background-color: #eff2f5;
+}
+.condition_item2 ul li.active p{
+	background-color: #fefbda;
+	border: 1px solid #dddc8c;
+}
+.submit{
+	position: fixed;
+	bottom: 1em;
+	width: 100%;
+	padding: 0 1em;
+}
+.submit button{
+	font-size: 2.3em;
+	background-color: #fee004;
+	border: 0;
+	width: 100%;
+	padding: 0.75em 0;
+}
+.submit button:active{
+	background-color: #e4c907;
+}
