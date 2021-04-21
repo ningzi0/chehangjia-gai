@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>买车</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/screen.css" />
+	</head>
+	<body>
+		<div class="screen">
+			<div class="search">
+				<img src="images/icon/search.png">
+				<input type="search" name="" id="" placeholder="输入车辆的名称或品牌" />
+			</div>
+
+
+			<!-- 品牌选择 -->
+			<div class="carbrand">
+				<ul>
+					<li>
+						<a href="">
+							<img src="images/icon/jili.png">
+							<p>吉利汽车</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/icon/qirui.png">
+							<p>奇瑞</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/icon/changan.png">
+							<p>长安</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/icon/byd.png">
+							<p>比亚迪</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/icon/hafu.png">
+							<p>哈弗</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="more_car">
+							<img src="images/icon/more.png">
+							<p>更多</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 价格选择 -->
+			<div class="price">
+				<a href="">10万以下</a>
+				<a href="">10-15万</a>
+				<a href="">15-20万</a>
+				<a href="">20-30万</a>
+				<a href="">新能源</a>
+				<a href="">SUV</a>
+				<a href="">轿车</a>
+				<a href="javascript:;" class="condition_btn">更多条件</a>
+			</div>
+
+			
+
+
+
+
+			<!-- 汽车品牌选择 -->
+			<div class="brand_wrap clearfix">
+				<div class="brand_left">
+					<div class="brand_head">
+						<span>品牌</span>
+						<span class="f-r close">关闭</span>
+					</div>
+					<div class="brand_nav">
+						<div class="brand_side">
+							<div class="numA-Z"> <a href="javascript:void(0)" class="active">A</a> <a
+									href="javascript:void(0)">B</a> <a href="javascript:void(0)">C</a> <a
+									href="javascript:void(0)">D</a> <a href="javascript:void(0)">F</a> <a
+									href="javascript:void(0)">G</a> <a href="javascript:void(0)">H</a> <a
+									href="javascript:void(0)">J</a> <a href="javascript:void(0)">K</a> <a
+									href="javascript:void(0)">L</a> <a href="javascript:void(0)">M</a> <a
+									href="javascript:void(0)">N</a> <a href="javascript:void(0)">O</a> <a
+									href="javascript:void(0)">Q</a> <a href="javascript:void(0)">R</a> <a
+									href="javascript:void(0)">S</a> <a href="javascript:void(0)">T</a> <a
+									href="javascript:void(0)">W</a> <a href="javascript:void(0)">X</a> <a
+									href="javascript:void(0)">Y</a> <a href="javascript:void(0)">Z</a> </div>
+						</div>
+						<div class="brand_col">
+							<div class="brand_list">
+								<ul class="list_cont">
+									<li class="name">A</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a1.png" /></span>奥迪</a></li>
+									<li class="a1">
+										<ul>
+											<li class="a2"><a href="#">不限车系</a></li>
+											<li class="menu_li"><a href="#">奥迪A3</a></li>
+											<li class="menu_li"><a href="#">奥迪A4L</a></li>
+											<li class="menu_li"><a href="#">奥迪A4</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪A6</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q5</a></li>
+											<li class="menu_li"><a href="#">奥迪A1</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪A(进口)</a></li>
+										</ul>
+									</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a2.png" /></span>阿斯顿·马丁</a></li>
+									<li class="a1">
+										<ul>
+											<li class="a2"><a href="#">一汽大众</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪Q3</a></li>
+											<li class="a2"><a href="#">一汽大众</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪Q3</a></li>
+										</ul>
+									</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a3.png" /></span>阿尔法·罗密欧</a></li>
+									<li class="a1">
+										<ul>
+											<li class="a2"><a href="#">一汽大众</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪Q3</a></li>
+											<li class="a2"><a href="#">一汽大众</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li"><a href="#">奥迪Q3</a></li>
+											<li class="menu_li menu_no"><a href="#">奥迪Q3</a></li>
+										</ul>
+									</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a4.png" /></span>ARCFOX极狐</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a5.png" /></span>AUXUN傲旋</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/a6.png" /></span>Apollo</a></li>
+									<li class="name">B</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b1.png" /></span>奔驰</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b2.png" /></span>宝马</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b3.png" /></span>本田</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b4.png" /></span>比亚迪</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b5.png" /></span>保时捷</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b6.png" /></span>宝骏</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b7.png" /></span>标致</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b8.png" /></span>宾利</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/b9.png" /></span>奔腾</a></li>
+									<li class="name">C</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/c1.png" /></span>长安</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/c2.png" /></span>长安欧尚</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/c3.png" /></span>长城</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/c4.png" /></span>长安凯程</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/c5.png" /></span>成功汽车</a></li>
+									<li class="name">D</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/d1.png" /></span>大众/a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/d2.png" /></span>东风风行</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/d3.png" /></span>东风风神</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/d4.png" /></span>DS</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/d5.png" /></span>东南</a></li>
+									<li class="name">E</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/e1.png" /></span>Elemental</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/e2.png" /></span>Elektron</a></li>
+									<li class="name">F</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/f1.png" /></span>丰田</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/f2.png" /></span>福特</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/f3.png" /></span>法拉利</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/f4.png" /></span>福田</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/f5.png" /></span>枫叶汽车</a></li>
+									<li class="name">G</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/g1.png" /></span>广汽传祺</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/g2.png" /></span>GMC</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/g3.png" /></span>观致</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/g4.png" /></span>广汽蔚来</a></li>
+									<li class="name">H</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/h1.png" /></span>哈弗</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/h2.png" /></span>红旗</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/h3.png" /></span>海马</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/h4.png" /></span>汉腾</a></li>
+									<li><a href="#"><span class="sign"><img src="images/brand/h5.png" /></span>汉龙</a></li>
+									<li class="name">J</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/j1.png" /></span>吉利汽车</a></li>
+									<li class="name">K</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/k1.png" /></span>凯迪拉克</a></li>
+									<li class="name">L</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/l1.png" /></span>雷克萨斯</a></li>
+									<li class="name">M</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/m1.png" /></span>马自达</a></li>
+									<li class="name">N</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/n1.png" /></span>哪吒汽车</a></li>
+									<li class="name">O</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/o1.png" /></span>讴歌</a></li>
+									<li class="name">Q</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/q1.png" /></span>起亚</a></li>
+									<li class="name">R</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/r1.png" /></span>起亚</a></li>
+									<li class="name">S</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/s1.png" /></span>斯柯达</a></li>
+									<li class="name">T</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/t1.png" /></span>特斯拉</a></li>
+									<li class="name">W</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/w1.png" /></span>沃尔沃</a></li>
+									<li class="name">X</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/x1.png" /></span>雪佛兰</a></li>
+									<li class="name">Y</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/y1.png" /></span>英菲尼迪</a></li>
+									<li class="name">Z</li>
+									<li><a href="#"><span class="sign"><img src="images/brand/z1.png" /></span>众泰</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			
+			
+			<!-- 条件筛选 -->
+			<div class="condition_screen">
+				<div class="condition_title">
+					<span>条件选择</span>
+					<span class="close f-r">关闭</span>
+				</div>
+				
+				<div class="condition_screenCon">
+					<div class="condition_item">
+						<span>级别</span>
+						<ul>
+							<li>
+								<img src="images/icon/jiaoche.png" >
+								<p>轿车</p>
+							</li>
+							<li>
+								<img src="images/icon/suv.png" >
+								<p>SUV</p>
+							</li>
+							<li>
+								<img src="images/icon/mpv.png" >
+								<p>MPV</p>
+							</li>
+							<li>
+								<img src="images/icon/paoche.png" >
+								<p>跑车</p>
+							</li>
+							<li>
+								<img src="images/icon/pika.png" >
+								<p>皮卡</p>
+							</li>
+							<li>
+								<img src="images/icon/shangwu.png" >
+								<p>商务车</p>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="condition_item condition_item2">
+						<span>变速箱</span>
+						<ul>
+							<li>
+								<p>手动</p>
+							</li>
+							<li>
+								<p>自动</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>车龄</span>
+						<ul>
+							<li>
+								<p>1年以下</p>
+							</li>
+							<li>
+								<p>2年以下</p>
+							</li>
+							<li>
+								<p>4年以下</p>
+							</li>
+							<li>
+								<p>6年以下</p>
+							</li>
+							<li>
+								<p>8年以下</p>
+							</li>
+							<li>
+								<p>不限</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>行驶里程</span>
+						<ul>
+							<li>
+								<p>1万公里以下</p>
+							</li>
+							<li>
+								<p>2万公里以下</p>
+							</li>
+							<li>
+								<p>4万公里以下</p>
+							</li>
+							<li>
+								<p>6万公里以下</p>
+							</li>
+							<li>
+								<p>8万公里以下</p>
+							</li>
+							<li>
+								<p>不限</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>排量</span>
+						<ul>
+							<li>
+								<p>1.0及以下</p>
+							</li>
+							<li>
+								<p>1.1-1.6L</p>
+							</li>
+							<li>
+								<p>1.7-2.0L</p>
+							</li>
+							<li>
+								<p>2.1-2.5L</p>
+							</li>
+							<li>
+								<p>2.6-3.0L</p>
+							</li>
+							<li>
+								<p>4.0以上</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>驱动方式</span>
+						<ul>
+							<li>
+								<p>前驱</p>
+							</li>
+							<li>
+								<p>后驱</p>
+							</li>
+							<li>
+								<p>全时四驱</p>
+							</li>
+							<li>
+								<p>适时四驱</p>
+							</li>
+							<li>
+								<p>分时四驱</p>
+							</li>
+							<li>
+								<p>电动四驱</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>驻车制动类型</span>
+						<ul>
+							<li>
+								<p>手刹</p>
+							</li>
+							<li>
+								<p>脚刹</p>
+							</li>
+							<li>
+								<p>电子驻车</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>安全配置</span>
+						<ul>
+							<li>
+								<p>胎压监测</p>
+							</li>
+							<li>
+								<p>EPS车身稳定系统</p>
+							</li>
+							<li>
+								<p>并线辅助</p>
+							</li>
+							<li>
+								<p>车道保持辅助系统</p>
+							</li>
+							<li>
+								<p>车道偏离预警系统</p>
+							</li>
+							<li>
+								<p>主动安全系统</p>
+							</li>
+							<li>
+								<p>防爆轮胎</p>
+							</li>
+							<li>
+								<p>儿童座椅接口</p>
+							</li>
+							<li>
+								<p>夜视系统</p>
+							</li>
+							<li>
+								<p>道路交通标识识别</p>
+							</li>
+							<li>
+								<p>被动行人保护</p>
+							</li>
+						</ul>
+					</div>
+					<div class="condition_item condition_item2">
+						<span>辅助/操控配置</span>
+						<ul>
+							<li>
+								<p>前驻车雷达</p>
+							</li>
+							<li>
+								<p>后驻车雷达</p>
+							</li>
+							<li>
+								<p>倒车影响</p>
+							</li>
+							<li>
+								<p>360全景影响</p>
+							</li>
+							<li>
+								<p>自动驻车</p>
+							</li>
+							<li>
+								<p>自动泊车入位</p>
+							</li>
+							<li>
+								<p>定速巡航</p>
+							</li>
+							<li>
+								<p>自适应巡航</p>
+							</li>
+							<li>
+								<p>上坡辅助</p>
+							</li>
+							<li>
+								<p>陡坡缓降</p>
+							</li>
+							<li>
+								<p>可变悬挂</p>
+							</li>
+							<li>
+								<p>空气悬挂</p>
+							</li>
+							<li>
+								<p>可变转向比系统</p>
+							</li>
+							<li>
+								<p>整体主动转向系统</p>
+							</li>
+							<li>
+								<p>发动机启停</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="submit">
+					<button>确定查询</button>
+				</div>
+			</div>
+
+
+		</div>
+
+		
+		
+		<!-- 车辆列表 -->
+		<div class="carExhibition">
+			<div class="container">
+				<ul class="carlist clearfix js-top">
+					<li>
+						<a href="" class="car-a">
+							<img src="http://114.55.144.124:8080/chj_pic_server/press512pic/2E52AE34-73C2-4865-B05C-88CB0B81E319.jpg" >
+							<h2 class="t">大众 蔚揽 2018款 380TSI 两驱畅行版</h2>
+							<div class="t-i">
+								2018年12月6日 5.19万公里
+							</div>
+							<div class="t-price">
+								<p>20.88<span>万</span></p>
+								<i class="i-color">准新车</i>
+								<i class="i-color">99分</i>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="" class="car-a">
+							<img src="http://114.55.144.124:8080/chj_pic_server/press512pic/1C9C72C4-C89B-4537-9545-3354BD030480.jpg" >
+							<h2 class="t">大众 蔚揽 2018款 380TSI 两驱畅行版</h2>
+							<div class="t-i">
+								2018年12月6日5.19万公里
+							</div>
+							<div class="t-price">
+								<p>20.88<span>万</span></p>
+								<i class="i-color">准新车</i>
+								<i class="i-color">99分</i>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+
+
+
+
+
+		<script type="text/javascript" src="js/jquery-min-3-4-1.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/select-car.js"></script>
+	</body>
+</html>

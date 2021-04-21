@@ -1,0 +1,128 @@
+@media (max-width:1080px) {
+	.container{
+		width: 100%;
+	}
+	.basicsContent .pic{
+		width: 100%;
+	}
+	.product-textbox{
+		width: 100%;
+	}
+	.product-textbox h1{
+		font-size: 3.5em;
+		line-height: normal;
+		max-height: none;
+		font-weight: bold;
+		margin-bottom: 0.5em;
+	}
+	.tag span{
+		font-size: 2em;
+	}
+	.assort ul li span{
+		font-size: 2em;
+	}
+	.assort ul li font{
+		font-size: 1.75em;
+	}
+	.tag{
+		margin-bottom: 1.5em;
+	}
+	.current_price{
+		font-size: 5em;
+	}
+	.newCarPrice{
+		font-size: 1.75em;
+	}
+	.assort_service ul li{
+		font-size: 1.75em;
+	}
+	.source{
+		font-size: 1.75em;
+	}
+	.buycarBtn a{
+		font-size: 2.2em;
+	}
+	.ciasTitle img{
+		width: 15em;
+	}
+	.ciasTitle h2{
+		font-size: 4em;
+	}
+	.ciasTitle p{
+		font-size: 1.75em;
+	}
+	.ciasThreeIcon ul li span{
+		font-size: 1.8em;
+	}
+	.ciasThreeIcon ul li img{
+		width: 6em;
+	}
+	.ciasContent{
+		width: 100%;
+		font-size: 1.75em;
+	}
+	.ciasConList{
+		display: block;
+	}
+	.ciasConList dl{
+		display: inline-block;
+		width: 46%;
+		vertical-align: top;
+		min-height: 17em;
+		margin: 0.5em;
+		font-size: 2.2em;
+	}
+	.ciasConList dl dd span{
+		width: 74%;
+	}
+	.tips{
+		font-size: 1.5em;
+		line-height: 2;
+	}
+	.info_parameterTit h2{
+		width: 100%;
+		font-size: 3em;
+		padding: 0.75em 0.2em;
+	}
+	.info_parameterTit ul{
+		width: 100%;
+	}
+	.info_parameterTit ul li{
+		font-size: 2em;
+		margin: 0.1em 0 0.1em 0.5em;
+	}
+	.Basics_info ul{
+		display: block;
+	}
+	.Basics_info ul li{
+		display: inline-block;
+		width: 33%;
+		border-bottom: 1px solid #eee;
+	}
+	.Basics_info ul li span{
+		font-size: 2em;
+	}
+	.Basics_info ul li font{
+		font-size: 1.75em;
+		display: block;
+		margin: 0.75em 0;
+	}
+	.cs_table table th{
+		font-size: 2em;
+		padding: 0.75em 0;
+	}
+	.cs_table table th, .cs_table table td{
+		height: initial;
+		line-height: normal;
+	}
+	.cs_table table td{
+		font-size: 1.8em;
+		padding: 0.75em 0;
+	}
+	.carpic .pic_item h3{
+		font-size: 2.2em;
+	}
+	.moreContent{
+		font-size: 1.75em;
+	}
+}
